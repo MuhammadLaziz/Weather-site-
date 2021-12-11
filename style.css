@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    padding: 1% 8%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.6) 100%, rgba(0,0,0,0.6) 100%),url('https://source.unsplash.com/1920x1280/?nature');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 5;
+}
+main{
+    margin-top: 25px;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    height: 90vh;
+    min-width: 550px;
+}
+form{
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    position: relative;
+    font-size: 20px;
+}
+button{
+    margin-left: 25px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 41%;
+    font-size: 20px;
+}
+.text{
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.degree{
+    font-size: 80px;
+    font-style: italic;
+    color: #fff;
+}
+.img{
+    margin-top: 55px;
+    font-size: 50px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.text2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 45px;
+    color: #fff;
+}
+.minMax{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width:600px) {
+    .main{
+        min-width: 300px;
+    }
+}
